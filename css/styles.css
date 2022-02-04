@@ -3,23 +3,40 @@
 /**************tag styles************/
 body {
   background-color: #f5f2e7;
+  margin: 0;
+  height: 100%;
   width: 100%;
 }
 
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
 /**************class styles************/
+
 .topContainer {
   background-color: #2666cf;
-  height: 200px;
-  width: 200px;
+  width: 180px;
+  height: 180px;
+  border: 10px solid black;
 }
 .midContainer {
   background-color: #395b64;
-  height: 200px;
-  width: 200px;
+  border: 20px solid black;
+  width: 160px;
+  height: 160px;
+
+  margin-left: 200px;
 }
 
-.buttcontainer {
+.buttContainer {
   background-color: #2c3333;
-  height: 200px;
-  width: 200px;
+  border: 10px solid black;
+  width: 180px;
+  height: 180px;
+  margin-left: 400px;
 }
