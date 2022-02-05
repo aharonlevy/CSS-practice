@@ -4,8 +4,6 @@
 body {
   background-color: #f5f2e7;
   margin: 0;
-  height: 100%;
-  width: 100%;
 }
 
 h1 {
@@ -18,8 +16,6 @@ p {
 
 /**************class styles************/
 
-.topContainer {
-}
 .midContainer {
   background-color: #395b64;
   border: 20px solid black;
@@ -62,4 +58,24 @@ p {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.top-square {
+  background-color: #d67d3e;
+  width: 33vw;
+  height: 33vw;
+}
+
+.mid-square {
+  background-color: #9c0f48;
+  width: 33vw;
+  height: 33vw;
+  margin-left: 33vw;
+}
+
+.bot-square {
+  background-color: #470d21;
+  width: 33vw;
+  height: 33vw;
+  margin-left: 66vw;
 }
