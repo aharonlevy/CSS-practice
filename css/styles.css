@@ -10,6 +10,7 @@ body {
 
 h1 {
   margin: 0;
+  font-size: 500%; /* when we want to make a dinamic font size [almost always we need to calc it in % to be (goal in PX)/(16*100)  */
 }
 
 p {
@@ -25,6 +26,7 @@ p {
 }
 
 .mid-container {
+  padding: 30px 0px 50px;
 }
 
 .butt-container {
