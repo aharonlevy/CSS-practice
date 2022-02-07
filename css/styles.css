@@ -4,6 +4,8 @@
 body {
   background-color: #f5f2e7;
   margin: 0;
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
 }
 
 h1 {
@@ -16,13 +18,10 @@ p {
 
 /**************class styles************/
 
-.midContainer {
-  background-color: #395b64;
-  border: 20px solid black;
-  width: 160px;
-  height: 160px;
-
-  margin-left: 200px;
+.mid-container {
+  background-color: #f5f2e7;
+  position: relative;
+  padding-top: 100px;
 }
 
 .buttContainer {
@@ -78,4 +77,16 @@ p {
   width: 33vw;
   height: 33vw;
   margin-left: 66vw;
+}
+
+.bot-cloud {
+  position: absolute;
+  left: 350px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 50px;
 }
