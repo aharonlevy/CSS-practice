@@ -18,18 +18,16 @@ p {
 
 /**************class styles************/
 
-.mid-container {
+.top-container {
   background-color: #f5f2e7;
   position: relative;
   padding-top: 100px;
 }
 
-.buttContainer {
-  background-color: #2c3333;
-  border: 10px solid black;
-  width: 180px;
-  height: 180px;
-  margin-left: 400px;
+.mid-container {
+}
+
+.butt-container {
 }
 
 .red-square {
