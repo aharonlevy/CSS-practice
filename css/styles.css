@@ -9,12 +9,31 @@ body {
 }
 
 h1 {
-  margin: 0;
-  font-size: 500%; /* when we want to make a dinamic font size [almost always we need to calc it in % to be (goal in PX)/(16*100)  */
+  margin: 50px auto 0 auto;
+  font-size: 500%; /* when we want to make a dinamic font size [almost always we need to calc it to be (goal in PX)/(16) 'rem'  */
+  color: #395b64;
+  line-height: 2;
 }
 
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #395b64;
+}
+
+h3 {
+  color: #2666cf;
+}
+
+a {
+  color: #2666cf;
+}
+a:visited {
+  color: #2c3333;
+}
 p {
   margin: 0;
+  font-size: 1.5rem;
 }
 
 /**************class styles************/
