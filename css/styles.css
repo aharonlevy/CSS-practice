@@ -106,3 +106,8 @@ p {
   right: 250px;
   top: 50px;
 }
+
+.circle {
+  margin: 30px auto 0 auto;
+  border-radius: 100%;
+}
